@@ -1,0 +1,11 @@
+[package]
+name = "tracing-scratch"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tracing = "0.1.40"
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+example-crate = { path = "./example-crate" }
+tracing-core = "0.1"
+tracing-log = "0.2"
